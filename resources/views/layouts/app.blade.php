@@ -10,14 +10,14 @@
     {{-- facebook meta information --}}
     <meta property="og:title" content="Tech Daniel">
     <meta property="og:description" content="A blog for Developers.">
-    <meta property="og:image" content="{{asset('img/view.png')}}">
-    <meta property="og:url" content="http://euro-travel-example.com/index.htm">
+    <meta property="og:image" content="{{ asset('img/view.png') }}">
+    <meta property="og:url" content="http://localhost:8000/">
 
     {{-- Twitter meta information --}}
     <meta name="twitter:title" content="Tech Daniel">
     <meta name="twitter:description" content="A blog for Developers.">
-    <meta name="twitter:image" content="{{asset('img/view.png')}}">
-    <meta name="twitter:card" content="{{asset('img/view.png')}}">
+    <meta name="twitter:image" content="{{ asset('img/view.png') }}">
+    <meta name="twitter:card" content="{{ asset('img/view.png') }}">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">

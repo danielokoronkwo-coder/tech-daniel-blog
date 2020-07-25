@@ -10,7 +10,7 @@
                             <img style="width: 100%" src="/storage/cover_image/{{$post->cover_image}}" alt="Post Image">
                         </div>
                         <div class="col-md-8 col-sm-4">
-                            <a href="/posts/{{$post->id}}"><h3>{{$post->title}}</h3></a>
+                            <a href="/posts/{{$post->id}}"><h2>{{$post->title}}</h2></a>
                             <small>Wriiten on {{$post->created_at}} By {{$post->author}}</small>  
                         </div>
                     </div>
