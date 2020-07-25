@@ -53,7 +53,7 @@
     <script src="{{ asset('ckeditor/ckeditor.js') }}"></script>
     {{-- <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script> --}}
     <script>
-        CKEDITOR.replace( 'summary-ckeditor' );
+        CKEDITOR.replace( 'summary-ckeditor');
     </script>
 </body>
 </html>

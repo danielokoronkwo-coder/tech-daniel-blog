@@ -12,7 +12,7 @@
                 <img src="{{asset('img/carousel-image0.jpg')}}" alt="Slider-image">
             <div class="container">
                 <div class="carousel-caption">
-                <h1>Welcome To Tech Daniel</h1>
+                <h1>Welcome to Tech Daniel</h1>
                 <p>Are you ready to make Impact?</p>
                 <p><a class="btn btn-lg btn-primary" href="/register" role="button">Sign up today!</a></p>
                 </div>
@@ -73,4 +73,5 @@
             <!-- /.col-lg-4 -->
         </div>
     </div>
+    @include('includes.footer')
 @endsection
