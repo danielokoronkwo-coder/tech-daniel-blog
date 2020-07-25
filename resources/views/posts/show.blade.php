@@ -3,7 +3,7 @@
     <div class="container my-2">
         <a href="/posts" class="btn btn-secondary" role="button"><i class="fa fa-arrow-left" aria-hidden="true"></i>
         </i> Back</a>
-        <div class="well">
+        <div class="well" style="width: 80%;">
         <h1 class="my-4">{{$post->title}}</h1>
         <img style="width: 100%; height:100%;" src="/storage/cover_image/{{$post->cover_image}}" alt="Post Image" class="img-fluid">
         <div class="my-2">

@@ -33,15 +33,19 @@
     <hr>
     <div class="container">
         <div class="row py-4">
-            <div class="col-md-4 col-sm-12 my-2">
-                I design and build beautiful Solution driven Software to make 
+            <div class="col-md-4 col-sm-12 my-2 text-center">
+                <img src="{{asset('img/software.svg')}}" height="200" width="200"class="rounded mx-auto" alt="solution-driven-application">
+                <p>I design and build beautiful Solution driven Software to make 
                 life easier for everyone
+                </p>
             </div>
-            <div class="col-md-4 col-sm-12 my-2">
-                I love contributing to Open source 
+            <div class="col-md-4 col-sm-12 my-2 text-center">
+                <img src="{{asset('img/open-source.svg')}}" height="200" width="200"class="rounded mx-auto" alt="open source contribution">
+                <p>I love contributing to Open source</P> 
             </div>
-            <div class="col-md-4 col-sm-12 my-2">
-                I am a self-taught developer, a product of many tech community
+            <div class="col-md-4 col-sm-12 my-2 text-center">
+                <img src="{{asset('img/developer.svg')}}" height="200" width="200"class="rounded mx-auto" alt="self-taught-developer">
+                <p>I am a self-taught developer, a product of many tech community</p>
             </div>
         </div>
     </div>
